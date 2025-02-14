@@ -33,7 +33,7 @@ public class App
         ad.setCity("Gwalior3");
         ad.setOpen(true);
         ad.setAddedDate(new Date());
-        ad.setX(1234.45);
+        ad.setX(1234.45); 
         
         //Reading image
         FileInputStream fis = new FileInputStream("src/main/java/profile.png");
