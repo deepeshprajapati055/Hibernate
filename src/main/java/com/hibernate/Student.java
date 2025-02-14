@@ -18,19 +18,30 @@ public class Student {
 	
 	private String city;
 	
-	public Student(Integer id, String name, Integer age, String city) {
-		super();
-		this.id = id;
-		this.name = name;
-		this.age = age;
-		this.city = city;
-	}
+	private Certificate certificate;
 	
 	public Student() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
 	
+	public Student(Integer id, String name, Integer age, String city, Certificate certificate) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.age = age;
+		this.city = city;
+		this.certificate = certificate;
+	}
+
+	public Certificate getCertificate() {
+		return certificate;
+	}
+
+	public void setCertificate(Certificate certificate) {
+		this.certificate = certificate;
+	}
+
 	public Integer getId() {
 		return id;
 	}
