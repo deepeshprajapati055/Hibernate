@@ -3,6 +3,7 @@ package com.hibernate;
 import javax.persistence.Column;
 import javax.persistence.Embeddable;
 
+//This annotation is used to get the functionality(fields) of one class into another class. 
 @Embeddable
 public class Certificate {
 	
